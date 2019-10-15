@@ -1,5 +1,5 @@
 /*!
- * h5-video-player v1.2.0
+ * h5-video-player v1.2.1
  * Homepage: https://github.com/cycdpo/h5-video-player#readme
  * Released under the MIT License.
  */

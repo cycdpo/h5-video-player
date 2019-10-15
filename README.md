@@ -1,7 +1,6 @@
 # H5 Video Player
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
 [![David deps][david-image]][david-url]
 [![devDependencies Status][david-dev-image]][david-dev-url]
 [![npm download][download-image]][download-url]
@@ -10,8 +9,6 @@
 
 [npm-image]: https://img.shields.io/npm/v/h5-video-player.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/h5-video-player
-[travis-image]: https://img.shields.io/travis/cycdpo/h5-video-player.svg?style=flat-square
-[travis-url]: https://travis-ci.org/cycdpo/h5-video-player
 [david-image]: https://img.shields.io/david/cycdpo/h5-video-player.svg?style=flat-square
 [david-url]: https://david-dm.org/cycdpo/h5-video-player
 [david-dev-image]: https://david-dm.org/cycdpo/h5-video-player/dev-status.svg?style=flat-square
@@ -24,6 +21,11 @@
 
 Browser full screen H5 video player. ([Releases](https://github.com/cycdpo/h5-video-player/releases) | [Demo](https://cycdpo.github.io/h5-video-player/))
 
+## This package has been deprecated
+[new-url]: https://github.com/cycjimmy/h5-video-player
+
+**This package has been migrated to [@cycjimmy/h5-video-player][new-url] for scoped NPM package. Please switch to [@cycjimmy/h5-video-player][new-url] to stay up to date.**
+
 ## Install
 ```shell
 $ npm install h5-video-player --save
@@ -32,16 +34,16 @@ $ yarn add h5-video-player
 ```
 
 ## Use
-  ```javascript
-  import H5VideoPlayer from 'h5-video-player';
-  # OR
-  const H5VideoPlayer = require('h5-video-player');
-  ```
+```javascript
+import H5VideoPlayer from 'h5-video-player';
+# OR
+const H5VideoPlayer = require('h5-video-player');
+```
 
-  ```javascript
-  const videoPlayer = new H5VideoPlayer(source, [, options]);
-  videoPlayer.load();
-  ```
+```javascript
+const videoPlayer = new H5VideoPlayer(source, [, options]);
+videoPlayer.load();
+```
 
 * `source`: Video source allows three types
   * [String]: Video url. E.g: `'video.mp4'`
